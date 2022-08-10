@@ -1,0 +1,29 @@
+.button {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    background: $main-color;
+    border: none;
+    margin-top: 40px;
+    border-radius: 4px;
+    padding: 18px 14px;
+    font-size: 20px;
+    color: #FFFFFF;
+    &::before {
+        content: '';
+        position: absolute;
+        right: 23px;
+        width: 32px;
+        height: 32px;
+        background: rgba(255, 193, 218, 0.28);
+        border: 1.5px solid #FFFFFF;
+        border-radius: 2px;
+    }
+    &::after {
+        content: url('../../icons/arrows/arrow_right_white.png');
+        position: absolute;
+        right: 33px;
+    }
+}

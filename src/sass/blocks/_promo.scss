@@ -1,0 +1,50 @@
+.promo {
+    padding-top: 57px;
+    background: url(../../icons/bloobs/header_bloob.png) right no-repeat;
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__menu {
+            max-width: 800px;
+            display: flex;
+            column-gap: 70px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__link {
+            font-size: 20px;
+            color: #AAAAAB;
+            &:hover {
+                color: #56597A;
+            }
+        }
+    }
+    &__wrapper {
+        margin-top: 110px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    &__info {
+        max-width: 700px;
+    }
+    &__block {
+        margin-bottom: 29px;
+        display: flex;
+        align-items: baseline;
+        column-gap: 7px;
+    }
+    &__divider {
+        width: 36px;
+        height: 3px;
+        background: $main-color;
+    }
+    &__header {
+        margin-bottom: 31px;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 74px;
+        color: #56597A;
+    }
+}

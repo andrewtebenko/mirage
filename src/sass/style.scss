@@ -1,0 +1,16 @@
+* {
+    font-family: 'CircularStd', sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@import 'base/variables';
+@import 'blocks/titles';
+@import 'blocks/buttons';
+@import 'blocks/promo';
+@import 'blocks/logo';

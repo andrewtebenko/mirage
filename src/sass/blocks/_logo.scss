@@ -1,0 +1,12 @@
+.logo {
+    font-family: 'JosefinSans';
+    font-size: 30px;
+    color: $main-color;
+    span {
+        font-family: 'JosefinSans';
+        color: #56597A;
+    }
+    &_big {
+        font-size: 36px;
+    }
+}
