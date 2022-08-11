@@ -22,8 +22,9 @@
         border-radius: 2px;
     }
     &::after {
-        content: url('../../icons/arrows/arrow_right_white.png');
+        content: url('../icons/arrows/arrow_right_white.png');
         position: absolute;
-        right: 33px;
+        top: 20px;
+        right: 36px;
     }
 }

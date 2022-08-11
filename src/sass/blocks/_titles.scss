@@ -2,12 +2,24 @@
     font-size: 52px;
     font-weight: 700;
     color: #56597A;
+    &_center {
+        text-align: center;
+    }
+    &__cards {
+        text-align: center;
+        font-size: 34px;
+        line-height: 72px;
+    }
 }
 
 .subtitle {
     font-size: 28px;
     line-height: 40px;
+    margin-bottom: 15px;
     color: $main-color;
+    &_center {
+        text-align: center;
+    }
 }
 
 .description {
@@ -15,4 +27,11 @@
     font-size: 20px;
     line-height: 32px;
     color: #919299;
+    &__cards {
+        max-width: 224px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
