@@ -1,0 +1,40 @@
+.services {
+    padding: 180px 0px 194px 0px;
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        margin-top: 58px;
+        &-item {
+            margin-top: 50px;
+            width: 270px;
+            height: 307px;
+            background: #FFF1F9;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+        &-img {
+            max-width: 44px;
+            padding: 54px 0px 40px 0px;
+            margin: 0 auto;
+        }
+        &-more {
+            visibility: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 8px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            &_visible {
+                visibility: visible;
+            }
+            a:first-child {
+                font-size: 20px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
