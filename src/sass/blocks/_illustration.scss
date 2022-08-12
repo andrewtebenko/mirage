@@ -1,0 +1,13 @@
+.illustration {
+    padding-bottom: 194px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info {
+        max-width: 500px;
+        .description {
+            margin-top: 24px;
+        }
+    }
+}

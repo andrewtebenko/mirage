@@ -1,4 +1,13 @@
-.bloob-header {
+.bloob {
     position: absolute;
-    top: 640px;
+    &-header {
+        top: 640px;
+    }
+    &-design {
+        top: 1970px;
+        right: 0;
+    }
+    &-teamwork {
+        top: 2790px;
+    }
 }
