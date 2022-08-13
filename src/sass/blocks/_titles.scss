@@ -20,6 +20,9 @@
     &_center {
         text-align: center;
     }
+    &__teamwork {
+        padding-top: 85px;
+    }
 }
 
 .description {
@@ -33,5 +36,12 @@
         text-align: center;
         font-size: 16px;
         line-height: 24px;
+    }
+    &__illustration {
+        margin-top: 24px;
+    }
+    &__testimonial {
+        max-width: 390px;
+        margin: 38px 0px 23px 0px;
     }
 }
