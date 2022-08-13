@@ -1,0 +1,43 @@
+.testimonial {
+    padding-bottom: 163px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__person {
+        max-width: 420px;
+    }
+    &__description {
+        max-width: 510px;
+    }
+    &__name {
+        font-family: 'ProximaNova';
+        font-size: 28px;
+        font-weight: 700;
+        color: #56597A;
+    }
+    &__location {
+        display: flex;
+        justify-content: space-between;
+        p {
+            margin-top: 5px;
+            font-family: 'ProximaNova';
+            font-size: 16px;
+            font-weight: 400;
+            color: #ABABAB;
+        }
+    }
+    &__button {
+        button {
+            border: none;
+            background: none;
+            &:last-child {
+                margin-left: 10px;
+            }
+            img {
+                width: 25px;
+            }
+        }
+    }
+}
