@@ -2,7 +2,7 @@
     padding: 180px 0px 194px 0px;
     &__cards {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
         column-gap: 30px;
@@ -14,6 +14,10 @@
             background: #FFF1F9;
             box-sizing: border-box;
             border-radius: 8px;
+            &_active {
+                height: 345px;
+                filter: drop-shadow(0 0 0.5rem rgb(224, 75, 105));
+            }
         }
         &-img {
             max-width: 44px;
@@ -33,7 +37,7 @@
             }
             a:first-child {
                 font-size: 20px;
-                color: #FFFFFF;
+                color: $main-color;
             }
         }
     }

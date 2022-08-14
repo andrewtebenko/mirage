@@ -10,6 +10,9 @@
         font-size: 34px;
         line-height: 72px;
     }
+    &__blog {
+        text-align: center;
+    }
 }
 
 .subtitle {
@@ -43,5 +46,13 @@
     &__testimonial {
         max-width: 390px;
         margin: 38px 0px 23px 0px;
+    }
+    &__blog {
+        margin: 18px auto 40px;
+        max-width: 500px;
+        text-align: center;
+    }
+    &__networks {
+        font-weight: 700;
     }
 }
