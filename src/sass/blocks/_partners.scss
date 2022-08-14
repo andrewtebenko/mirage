@@ -1,0 +1,13 @@
+.partners {
+    padding-bottom: 95px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 90px;
+        row-gap: 30px;
+        flex-wrap: wrap;
+    }
+    &__img {
+        max-height: 50px;
+    }
+}

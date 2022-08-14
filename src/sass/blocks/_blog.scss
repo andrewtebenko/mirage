@@ -1,0 +1,54 @@
+.blog {
+    padding-bottom: 150px;
+    &__wrapper {
+        display: flex;
+        column-gap: 85px;
+    }
+    &__img {
+        max-width: 250px;
+    }
+    &__description {
+        max-width: 710px;
+    }
+    &__form {
+        &-wrapper {
+            width: 700px;
+            height: 80px;
+            padding: 13px 13px 13px 27px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 4px;
+            background: #FFFFFF;
+            &:hover {
+                filter: drop-shadow(0 -1mm 1mm #56597a);
+            }
+            .email {
+                max-width: 70%;
+                display: flex;
+                align-items: center;
+                column-gap: 15px;
+                &__photo {
+                    max-width: 20px;
+                    max-height: 20px;
+                }
+            }
+            input {
+                width: 300px;
+                font-family: 'ProximaNova';
+                font-size: 20px;
+                font-weight: 400;
+                background: none;
+                border: none;
+                outline: 0;
+                color: #D2D2D2;
+            }
+            input::placeholder {
+                color: #D2D2D2;
+                font-family: 'ProximaNova';
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+    }
+}
