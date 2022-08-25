@@ -1,11 +1,16 @@
 .partners {
-    padding-bottom: 95px;
+    padding: 82px 0px 47px 0px;
     &__wrapper {
         display: flex;
         justify-content: space-between;
         column-gap: 90px;
         row-gap: 30px;
         flex-wrap: wrap;
+        a {
+            &:hover {
+                filter: drop-shadow(0 0 0.2rem rgb(86, 89, 122));
+            }
+        }
     }
     &__img {
         max-height: 50px;

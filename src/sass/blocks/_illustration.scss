@@ -1,5 +1,4 @@
 .illustration {
-    padding-bottom: 194px;
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -7,4 +6,12 @@
     &__info {
         max-width: 500px;
     }
+}
+
+#design {
+    padding: 100px 0px;
+}
+
+#teamwork {
+    padding: 94px 94px;
 }

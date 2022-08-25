@@ -1,5 +1,5 @@
 .services {
-    padding: 180px 0px 194px 0px;
+    padding: 90px 0px 94px 0px;
     &__cards {
         display: flex;
         justify-content: space-evenly;
@@ -14,9 +14,13 @@
             background: #FFF1F9;
             box-sizing: border-box;
             border-radius: 8px;
-            &_active {
+            &:hover {
+                transition: all 0.3s;
                 height: 345px;
                 filter: drop-shadow(0 0 0.5rem rgb(224, 75, 105));
+                .services__cards-more {
+                    visibility: visible;
+                }
             }
         }
         &-img {
@@ -32,9 +36,6 @@
             column-gap: 8px;
             padding-top: 30px;
             padding-bottom: 20px;
-            &_visible {
-                visibility: visible;
-            }
             a:first-child {
                 font-size: 20px;
                 color: $main-color;
