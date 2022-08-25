@@ -11,15 +11,38 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+    <div class="menu">
+        <div class="menu__block">
+            <nav>
+                <div class="menu__close">
+                    <img src="icons/close.png" alt="close">
+                </div>
+                <ul class="menu__list">
+                    <li class="menu__link"><a href="#services">Services</a></li>
+                    <li class="menu__link"><a href="#design">Design</a></li>
+                    <li class="menu__link"><a href="#teamwork">Teamwork</a></li>
+                    <li class="menu__link"><a href="#partners">Partners</a></li>
+                    <li class="menu__link"><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+            <div class="menu__social">
+                <a href="#"><img src="icons/social_networks/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="icons/social_networks/twitter.png" alt="twitter"></a>
+                <a href="#"><img src="icons/social_networks/youtube.png" alt="youtube"></a>
+                <a href="#"><img src="icons/social_networks/facebook.png" alt="facebook"></a>
+            </div>
+        </div>
+        <div class="menu__overlay"></div>
+    </div>
     <section class="promo">
         <div class="container">
             <header class="header">
                 <div class="logo">Mi<span>rage</span></div>
                 <nav class="header__menu">
-                    <a href="#" class="header__link">Services</a>
-                    <a href="#" class="header__link">Design</a>
-                    <a href="#" class="header__link">Teamwork</a>
-                    <a href="#" class="header__link">Partners</a>
+                    <a href="#services" class="header__link">Services</a>
+                    <a href="#design" class="header__link">Design</a>
+                    <a href="#teamwork" class="header__link">Teamwork</a>
+                    <a href="#partners" class="header__link">Partners</a>
                     <a href="#" class="header__hamburger">
                         <img src="icons/hamburger.png" alt="hamburger">
                     </a>
@@ -29,18 +52,18 @@
                 <div class="promo__info">
                     <div class="promo__block">
                         <div class="promo__divider"></div>
-                        <div class="subtitle">Creative Agency</div>
+                        <h4 class="subtitle">Creative Agency</h4>
                     </div>
-                    <div class="promo__header">
+                    <h1 class="promo__header">
                         We Deliver The Best
                         Product for You
-                    </div>
-                    <div class="description">
+                    </h1>
+                    <p class="description">
                         Design is the creation of a plan or convention for the<br>
                         construction of an object or a system as in architectural<br> blueprints, 
                         engineering drawings, business processes.
-                    </div>
-                    <button class="button">Get started</button>
+                    </p>
+                    <a href="#services" class="button">Get started</a>
                 </div>
                 <div class="promo__img">
                     <img src="img/illustrations/illustration_01.png" alt="illustration">
@@ -51,17 +74,17 @@
     <div class="bloob bloob-header">
         <img src="icons/bloobs/left_bloob_01.png" alt="bloob">
     </div>
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
-            <div class="subtitle subtitle_center">Our Services</div>
-            <div class="title title_center">Why People Choose Us</div>
+            <h4 class="subtitle subtitle_center">Our Services</h4>
+            <h2 class="title title_center">Why People Choose Us</h2>
             <div class="services__cards">
                 <div class="services__cards-item">
                     <img src="img/benefits/design.png" alt="design" class="services__cards-img">
-                    <div class="title title__cards">Design</div>
-                    <div class="description description__cards">
+                    <h3 class="title title__cards">Design</h3>
+                    <p class="description description__cards">
                         a plan or drawing produced to show the look and function
-                    </div>
+                    </p>
                     <div class="services__cards-more">
                         <a href="#">Learn more</a>
                         <img src="icons/arrows/next.png" alt="next">
@@ -69,10 +92,10 @@
                 </div>
                 <div class="services__cards-item">
                     <img src="img/benefits/development.png" alt="development" class="services__cards-img">
-                    <div class="title title__cards">Development</div>
-                    <div class="description description__cards">
+                    <h3 class="title title__cards">Development</h3>
+                    <p class="description description__cards">
                         Development is defined as the process of growth
-                    </div>
+                    </p>
                     <div class="services__cards-more">
                         <a href="#">Learn more</a>
                         <img src="icons/arrows/next.png" alt="next">
@@ -80,10 +103,10 @@
                 </div>
                 <div class="services__cards-item">
                     <img src="img/benefits/branding.png" alt="branding" class="services__cards-img">
-                    <div class="title title__cards">Branding</div>
-                    <div class="description description__cards">
+                    <h3 class="title title__cards">Branding</h3>
+                    <p class="description description__cards">
                         The marketing practice of creating a name, symbols
-                    </div>
+                    </p>
                     <div class="services__cards-more">
                         <a href="#">Learn more</a>
                         <img src="icons/arrows/next.png" alt="next">
@@ -91,10 +114,10 @@
                 </div>
                 <div class="services__cards-item">
                     <img src="img/benefits/illustration.png" alt="illustration" class="services__cards-img">
-                    <div class="title title__cards">Illustration</div>
-                    <div class="description description__cards">
+                    <h3 class="title title__cards">Illustration</h3>
+                    <p class="description description__cards">
                         An illustration is a decoration, interpretation
-                    </div>
+                    </p>
                     <div class="services__cards-more">
                         <a href="#">Learn more</a>
                         <img src="icons/arrows/next.png" alt="next">
@@ -103,7 +126,7 @@
             </div>
         </div>
     </section>
-    <section class="illustration">
+    <section class="illustration" id="design">
         <div class="container">
             <div class="illustration__wrapper">
                 <div class="illustration__img">
@@ -111,17 +134,17 @@
                 </div>
                 <div class="illustration__info">
                     <div class="illustration__block">
-                        <div class="subtitle">Design Things</div>
+                        <h4 class="subtitle">Design Things</h4>
                     </div>
-                    <div class="title">
+                    <h2 class="title">
                         We Loves To Design
                         Your Creative Ideas
-                    </div>
-                    <div class="description description__illustration">
+                    </h2>
+                    <p class="description description__illustration">
                         A creative concept is an overarching “Big Idea” that<br> captures audience interest, 
                         influences their emotional<br> response and inspires them to take action.
                         It is a unifying<br> theme that can be used across all campaign messages 
-                    </div>
+                    </p>
                     <button class="button">Learn more</button>
                 </div>
             </div>
@@ -130,22 +153,22 @@
     <div class="bloob bloob-design">
         <img src="icons/bloobs/right_bloob_01.png" alt="bloob">
     </div>
-    <section class="illustration">
+    <section class="illustration" id="teamwork">
         <div class="container">
             <div class="illustration__wrapper">
                 <div class="illustration__info">
                     <div class="illustration__block">
-                        <div class="subtitle subtitle__teamwork">Our Teamwork</div>
+                        <h4 class="subtitle subtitle__teamwork">Our Teamwork</h4>
                     </div>
-                    <div class="title">
+                    <h2 class="title">
                         We Believe Success 
                         Lies On Teamwork
-                    </div>
-                    <div class="description description__illustration">
+                    </h2>
+                    <p class="description description__illustration">
                         Good teamwork means a synergistic way of working with<br> each person committed and working towards 
                         a shared<br> goal. ... It is therefore a necessity that leaders facilitate<br> and build the teamwork 
                         skills of their people if they are 
-                    </div>
+                    </p>
                     <button class="button">Learn more</button>
                 </div>
                 <div class="illustration__img">
@@ -165,16 +188,16 @@
                         <img src="img/people/man_01.png" alt="man">
                     </div>
                     <div class="testimonial__description">
-                        <div class="subtitle">Testimonial</div>
-                        <div class="title">
+                        <h4 class="subtitle">Testimonial</h4>
+                        <h2 class="title">
                             Thats What Our 
                             Client Says About Us
-                        </div>
-                        <div class="description description__testimonial">
+                        </h2>
+                        <p class="description description__testimonial">
                             “Heartiest congratulations to the team for Future projects. I extend thankful wishes 
                             and wish the team best of luck for the future assignments to come. Your effort is gladly”
-                        </div>
-                        <div class="testimonial__name">Jorge Morrison</div>
+                        </p>
+                        <h4 class="testimonial__name">Jorge Morrison</h4>
                         <div class="testimonial__location">
                             <p>North California,USA</p>
                             <div class="testimonial__button">
@@ -193,16 +216,16 @@
                         <img src="img/people/man_02.png" alt="man">
                     </div>
                     <div class="testimonial__description">
-                        <div class="subtitle">Testimonial</div>
-                        <div class="title">
+                        <h4 class="subtitle">Testimonial</h4>
+                        <h2 class="title">
                             Thats What Our 
                             Client Says About Us
-                        </div>
-                        <div class="description description__testimonial">
+                        </h2>
+                        <p class="description description__testimonial">
                             "This is the best creative agency I have ever seen. The staff is very friendly and honest. 
                             I really liked everything. I want to order more work in the future"
-                        </div>
-                        <div class="testimonial__name">Paul Lee</div>
+                        </p>
+                        <h4 class="testimonial__name">Paul Lee</h4>
                         <div class="testimonial__location">
                             <p>Paris,Europe</p>
                             <div class="testimonial__button">
@@ -221,16 +244,16 @@
                         <img src="img/people/man_03.png" alt="man">
                     </div>
                     <div class="testimonial__description">
-                        <div class="subtitle">Testimonial</div>
-                        <div class="title">
+                        <h4 class="subtitle">Testimonial</h4>
+                        <h2 class="title">
                             Thats What Our 
                             Client Says About Us
-                        </div>
-                        <div class="description description__testimonial">
+                        </h2>
+                        <p class="description description__testimonial">
                             "This creative agency was recommended to me by my best friend. I want to say that it is amazing. 
                             They did an excellent job for me. I will advise them in the future"
-                        </div>
-                        <div class="testimonial__name">Marol Scott</div>
+                        </p>
+                        <h4 class="testimonial__name">Marol Scott</h4>
                         <div class="testimonial__location">
                             <p>Spain,Europe</p>
                             <div class="testimonial__button">
@@ -247,30 +270,40 @@
             </div>
         </div>
     </section>
-    <section class="partners">
+    <section class="partners" id="partners">
         <div class="container">
             <div class="partners__wrapper">
-                <img src="icons/partners/ferrari.png" alt="ferrari" class="partners__img">
-                <img src="icons/partners/microsoft.png" alt="microsoft" class="partners__img">
-                <img src="icons/partners/geographic.png" alt="geographic" class="partners__img">
-                <img src="icons/partners/deloitte.png" alt="deloitte" class="partners__img">
-                <img src="icons/partners/google.png" alt="google" class="partners__img">
+                <a href="https://www.ferrari.com/en-UA" target="_blank">
+                    <img src="icons/partners/ferrari.png" alt="ferrari" class="partners__img">
+                </a>
+                <a href="https://www.microsoft.com/uk-ua" target="_blank">
+                    <img src="icons/partners/microsoft.png" alt="microsoft" class="partners__img">
+                </a>
+                <a href="https://www.nationalgeographic.com/" target="_blank">
+                    <img src="icons/partners/geographic.png" alt="geographic" class="partners__img">
+                </a>
+                <a href="https://www2.deloitte.com/ua/uk.html" target="_blank">
+                    <img src="icons/partners/deloitte.png" alt="deloitte" class="partners__img">
+                </a>
+                <a href="https://www.google.com/" target="_blank">
+                    <img src="icons/partners/google.png" alt="google" class="partners__img">
+                </a>
             </div>
         </div>
     </section>
-    <section class="blog">
+    <section class="blog" id="blog">
         <div class="container">
             <div class="blog__wrapper">
                 <div class="blog__img">
                     <img src="img/illustrations/illustration_04.png" alt="illustration">
                 </div>
                 <div class="blog__description">
-                    <div class="title title__blog">Subscribe To Our Blog</div>
-                    <div class="description description__blog">
+                    <h2 class="title title__blog">Subscribe To Our Blog</h2>
+                    <p class="description description__blog">
                         A newsletter is a tool used to communicate regularly with
                         your subscribers, delivering the information
-                    </div>
-                    <form action="#" method="post" id="blog" class="blog__form">
+                    </p>
+                    <form action="#" method="post" id="blog__form" class="blog__form">
                         <div class="blog__form-wrapper">
                             <div class="email">
                                 <img src="icons/email.png" alt="email" id="email" class="email__photo">
@@ -291,7 +324,7 @@
                     <div class="description">560 N Riverview D Ste 658</div>
                     <div class="description">North Carolina DA 598745 USA</div>
                 </div>
-                <div class="description description__networks">Follow us on</div>
+                <p class="description description__networks">Follow us on</p>
                 <div class="footer__networks">
                     <div class="footer__networks-item">
                         <a href="#"><img src="icons/social_networks/instagram.png" alt="instagram"></a>
@@ -313,7 +346,7 @@
             <p>All Rights Reserved By Mirage 2022</p>
         </div>
     </footer>
-    <script src="js/show.js"></script>
+    <script src="js/hamburger.js"></script>
     <script src="js/slider.js"></script>
 </body>
 </html>
