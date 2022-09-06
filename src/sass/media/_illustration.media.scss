@@ -1,0 +1,12 @@
+@media (max-width: 1200px) {
+    .illustration {
+        &__wrapper {
+            align-items: center;
+        }
+        &__img {
+            img {
+                width: 95%;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@media (max-width: 1200px) {
+    .bloob {
+        &-header {
+            top: 725px;
+        }
+        &-design {
+            display: none;
+        }
+        &-teamwork {
+            display: none;
+        }
+    }
+}

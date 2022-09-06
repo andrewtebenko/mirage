@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+    .testimonial {
+        &__person {
+            img {
+                width: 95%;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .testimonial {
+        &__wrapper {
+            align-items: start;
+        }
+    }
+}

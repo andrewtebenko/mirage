@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+    .title {
+        font-size: 45px;
+        &__cards {
+            font-size: 34px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 40px;
+    }
+    .description {
+        font-size: 18px;
+    }
+}
