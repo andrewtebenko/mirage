@@ -5,3 +5,21 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .blog {
+        &__img {
+            display: none;
+        }
+        &__wrapper {
+            justify-content: center;
+            column-gap: 0px;
+        }
+        &__description {
+            max-width: 550px;
+        }
+        &__form-wrapper {
+            max-width: 550px;
+        }
+    }
+}

@@ -24,3 +24,17 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .promo {
+        padding: 10px 0px 70px 0px;
+        .header {
+            &__link {
+                display: none;
+            }
+        }
+        &__header {
+            font-size: 48px;
+        }
+    }
+}
