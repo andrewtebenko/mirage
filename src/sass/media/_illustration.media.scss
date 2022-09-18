@@ -16,3 +16,22 @@
         padding: 70px 0px;
     }
 }
+
+@media (max-width: 576px) {
+    .illustration {
+        &__wrapper {
+            display: block;
+        }
+        &__info {
+            button {
+                margin: 0 auto;
+            }
+        }
+        .teamwork__img {
+            margin-top: 60px;
+        }
+    }
+    #design, #teamwork {
+        padding: 60px 0px;
+    }
+}

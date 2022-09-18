@@ -17,10 +17,38 @@
 }
 
 @media (max-width: 768px) {
+    .title {
+        &__cards {
+            font-size: 35px;
+        }
+    }
     .description {
         font-size: 18px;
         &__blog {
             max-width: 400px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .subtitle {
+        &__design {
+            padding-top: 40px;
+        }
+        &__teamwork {
+            padding-top: 20px;
+        }
+        &__design, &__teamwork, &__testimonial {
+            text-align: center;
+        }
+    }
+    .title {
+        text-align: center;
+    }
+    .description {
+        &__illustration {
+            text-align: center;
+            margin-bottom: 30px;
         }
     }
 }
