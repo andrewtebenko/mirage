@@ -12,6 +12,15 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+    <div class="overlay">
+        <div class="modal">
+            <div data-close class="modal__close">&times;</div>
+            <div class="modal__subtitle">Mirage information</div>
+            <div class="modal__description">
+                The information that was before is a little outdated, wait for new information!
+            </div>
+        </div>
+    </div>
     <div class="menu">
         <div class="menu__block">
             <nav>
@@ -64,7 +73,7 @@
                         construction of an object or a system as in architectural<br> blueprints, 
                         engineering drawings, business processes.
                     </p>
-                    <a href="#services" class="button" data-aos="zoom-out-up" data-aos-duration="3000">Get started</a>
+                    <a href="#services" class="button" data-aos="zoom-out-up" data-aos-duration="2000">Get started</a>
                 </div>
                 <div class="promo__img" data-aos="fade-up" data-aos-duration="3000">
                     <img src="img/illustrations/illustration_01.png" alt="illustration">
@@ -130,7 +139,7 @@
                         influences their emotional<br> response and inspires them to take action.
                         It is a unifying<br> theme that can be used across all campaign messages 
                     </p>
-                    <button class="button" data-aos="flip-up" data-aos-duration="1500">Learn more</button>
+                    <button class="button" id="btn" data-aos="flip-up" data-aos-duration="1500">Learn more</button>
                 </div>
             </div>
         </div>
@@ -154,7 +163,7 @@
                         a shared<br> goal. ... It is therefore a necessity that leaders facilitate<br> and build the teamwork 
                         skills of their people if they are 
                     </p>
-                    <button class="button" data-aos="zoom-out-up">Learn more</button>
+                    <button class="button" id="btn" data-aos="zoom-out-up">Learn more</button>
                 </div>
                 <div class="illustration__img teamwork__img" data-aos="zoom-in" data-aos-duration="1200">
                     <img src="img/illustrations/illustration_03.png" alt="illustration">
@@ -333,6 +342,7 @@
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/animate.js"></script>
+    <script src="js/modal.js"></script>
     <script src="js/hamburger.js"></script>
     <script src="js/slider.js"></script>
 </body>
