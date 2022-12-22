@@ -11,6 +11,17 @@
     }
 }
 
+@media (max-width: 992px) {
+    .illustration {
+        &__info {
+            padding-left: 20px;
+        }
+        &__img {
+            padding-left: 20px;
+        }
+    }
+}
+
 @media (max-width: 768px) {
     #design, #teamwork {
         padding: 70px 0px;
@@ -23,6 +34,15 @@
             display: block;
         }
         &__info {
+            padding-left: 0px;
+        }
+        &__img {
+            img {
+                margin: 0 auto;
+                width: 85%;
+            }
+        }
+        &__info {
             button {
                 margin: 0 auto;
             }
@@ -32,6 +52,6 @@
         }
     }
     #design, #teamwork {
-        padding: 60px 0px;
+        padding: 50px 0px;
     }
 }

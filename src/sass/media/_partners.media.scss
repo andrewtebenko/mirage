@@ -9,5 +9,17 @@
 @media (max-width: 768px) {
     .partners {
         padding: 60px 0px 47px 0px;
+        &__wrapper {
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .partners {
+        &__wrapper {
+            column-gap: 55px;
+            row-gap: 35px;
+        }
     }
 }

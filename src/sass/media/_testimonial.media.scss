@@ -13,6 +13,12 @@
         &__wrapper {
             align-items: start;
         }
+        &__person {
+            padding-left: 20px;
+            img {
+                width: 90%;
+            }
+        }
     }
 }
 
@@ -26,7 +32,38 @@
     .testimonial {
         padding: 60px 0px;
         &__wrapper {
-            display: block;
+            flex-wrap: wrap;
+        }
+        &__person {
+            img {
+                margin: 0 auto;
+                width: 85%;
+            }
+        }
+        &__description {
+            margin: 50px 0px 0px 0px;
+        }
+        &__name {
+            font-size: 32px;
+            text-align: center;
+        }
+        &__location {
+            margin-top: 20px;
+            justify-content: space-around;
+            p {
+                font-size: 20px;
+            }
+        }
+        &__button {
+            button {
+                img {
+                    width: 30px;
+                }
+            }
+            button:last-child {
+                margin-left: 20px;
+            }
         }
     }
 }
+
